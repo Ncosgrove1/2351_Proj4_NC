@@ -9,6 +9,8 @@ console.log(`One of my favorite breafest combinations is ${food} ${drink} with $
 
 // "If" Conditional statement below // 
 
+console.log("\n");
+
 const greeting = 11;
 
 if (greeting <= 11 ) {
@@ -20,3 +22,27 @@ if (greeting <= 11 ) {
 } else {
   console.log("Hello there.");
 }
+
+// Switch Statement below // 
+
+console.log("\n")
+
+const Color = "Blue";
+switch (Color) {
+  case "Red":
+  case "Blue":
+  case "Yellow":
+ 
+    console.log("This is a PRIMARY color.");
+    break;
+  case "Green":
+  case "Orange":
+  case "Purple":
+    
+    console.log("This is a SECONDARY color.");
+    break;
+  default:
+    console.log("A color hasn't been identified...");
+}
+
+// . //
