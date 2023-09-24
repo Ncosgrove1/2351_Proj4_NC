@@ -25,7 +25,7 @@ if (greeting <= 11 ) {
 
 // Switch Statement below // 
 
-console.log("\n")
+console.log("\n");
 
 const Color = "Blue";
 switch (Color) {
@@ -45,4 +45,39 @@ switch (Color) {
     console.log("A color hasn't been identified...");
 }
 
-// . //
+// String Method Below (String Split)  //
+
+console.log("\n");
+
+function Mysplitstring(stringToSplit, separator) 
+
+{
+const arrayOfStrings = stringToSplit.split(separator);
+
+  console.log("The unalterd starting string is:", stringToSplit);
+  console.log("The separatoring factor is:", separator);
+  
+  console.log(
+    "The array has",
+    arrayOfStrings.length,
+    "elements:",
+    arrayOfStrings.join(" | "),
+  );
+}
+
+const tempestString = "I wish to wish the wish you wish to wish.";
+
+// NOTE - The sepearting factor is the space between the elements(words) itslef, hence it shows a "blank" space. // 
+
+const monthString = "She,sells,seashells,by,the,seashore,and,the,shells,she,sells,are,seashells";
+
+const space = " ";
+const comma = ",";
+
+Mysplitstring(tempestString, space);
+
+console.log("\n");
+
+Mysplitstring(monthString, comma);
+
+// Number method below // 
