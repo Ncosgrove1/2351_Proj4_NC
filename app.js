@@ -67,7 +67,7 @@ const arrayOfStrings = stringToSplit.split(separator);
 
 const tempestString = "I wish to wish the wish you wish to wish.";
 
-// NOTE - The sepearting factor is the space between the elements(words) itslef, hence it shows a "blank" space. // 
+// NOTE - The sepearting factor is the space between the elements(words) itself, hence it shows a "blank" space. // 
 
 const monthString = "She,sells,seashells,by,the,seashore,and,the,shells,she,sells,are,seashells";
 
@@ -80,4 +80,30 @@ console.log("\n");
 
 Mysplitstring(monthString, comma);
 
-// Number method below // 
+// Number method below, using the toPrecision() Method // 
+
+console.log("\n");
+
+let number = 6.123456789;
+
+console.log(number.toPrecision( )); 
+
+console.log(number.toPrecision(8)); 
+
+console.log(number.toPrecision(3)); 
+
+console.log(number.toPrecision(5)); 
+
+console.log("\n");
+
+number = 0.002014;
+
+console.log(number.toPrecision( )); 
+
+console.log(number.toPrecision(6)); 
+
+console.log(number.toPrecision(2)); 
+
+console.log(number.toPrecision(1)); 
+
+// // 
